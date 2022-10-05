@@ -15,8 +15,8 @@ const AroundYou = () => {
     console.log('cont', country);
 
     useEffect(() => {
-        // your key
-        axios.get('https://geo.ipify.org/api/v2/country?apiKey=')
+        // at_6ROfgd7WTB83UT6KPW5OdpieAUwit
+        axios.get('https://geo.ipify.org/api/v2/country?apiKey=at_6ROfgd7WTB83UT6KPW5OdpieAUwit')
         .then((res) => setCountry(res?.data?.location?.country))
         .catch((err) => console.log(err))
         .finally(() => setLoading(false));
@@ -29,11 +29,11 @@ const AroundYou = () => {
         <div className="flex flex-col">
             <h2 className="font-bold text-3xl text-white text-left mt-4 mb-10">Around You <span>{country}</span></h2>
             <div className="flex flex-wrap sm:justify-start justify-center gap-8">
-                {data.map((song, i) => {
+                {data?.map((song, i) => {
                     return(
                         <SongCard key={song.key} song={song} i={i} isPlaying={isPlaying} activeSong={activeSong} data={data} />
                     )
-                })}
+                })};
             </div>
         </div>
     )
