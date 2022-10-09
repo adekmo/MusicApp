@@ -35,11 +35,11 @@ const SongDetails = () => {
             <DetailsHeader artistId="" songData={songData} />
 
             <div className='mb-10'>
-                <h2 className="text-white text-3xl font-bold">Lyrics :</h2>
+                <h2 className="text-[#F0A500] text-3xl font-bold">Lyrics :</h2>
                 <div className="mt-5">
                     {songData?.sections[1].type === 'LYRICS' ? songData?.sections[1].text.map((Line, i) => (
-                        <p className="text-gray-400 text-base my-1">{Line}</p>
-                    )) : <p className="text-gray-400 text-base my-1">Sorry, no lyrics found!</p>}
+                        <p className="text-[#F4F4F4] text-base my-1">{Line}</p>
+                    )) : <p className="text-[#F4F4F4] text-base my-1">Sorry, no lyrics found!</p>}
                 </div>
             </div>
 

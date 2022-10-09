@@ -4,11 +4,11 @@
 
 /* Active Navigation Link */
 .active {
-  @apply text-cyan-500;
+  @apply text-[#F0A500];
 }
 
 .active svg {
-  @apply text-cyan-500;
+  @apply text-[#F0A500];
 }
 
 .bar:nth-child(2) {

@@ -4,9 +4,9 @@ const ArtistCard = ({ track }) => {
   const navigate = useNavigate();
 
   return(
-    <div className='flex flex-col w-[250px] p-4 bg-white/5 bg-opacity-80 backdrop:-blur-sm animate-slideup rounded-lg cursor-pointer' onClick={() => navigate(`/artists/${track?.artists[0].adamid}`)}>
+    <div className='flex flex-col w-[250px] p-4 bg-[#F0A500] bg-opacity-80 backdrop:-blur-sm animate-slideup rounded-lg cursor-pointer' onClick={() => navigate(`/artists/${track?.artists[0].adamid}`)}>
       <img alt="artist" src={track?.images?.coverart} className="w-full rounded-lg h-56" />
-      <p className='mt-4 text-lg truncate font-semibold text-white'>{track.subtitle}</p>
+      <p className='mt-4 text-lg truncate font-semibold text-[#F4F4F4]'>{track.subtitle}</p>
     </div>
   )
 };
