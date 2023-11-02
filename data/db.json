@@ -1,0 +1,40 @@
+{
+  "laksa": [
+    {
+      "nika": "123",
+      "nikk": "456",
+      "nama": "Test Nama Anak",
+      "gender": "Perempuan",
+      "born": "2021-10-29T17:00:00.000Z",
+      "provinsi": "Banten",
+      "kota": "Tangerang Kota",
+      "kecamatan": "Cibodas",
+      "kelurahan": "Uwungjaya",
+      "rt": "1/2",
+      "alamat": "test alamat",
+      "puskesmas": "Jalan Baja",
+      "anakke": "2",
+      "berat": "12",
+      "panjang": "45",
+      "imd": "Tidak",
+      "kms": "Tidak",
+      "asieks": "Umur 1 Bulan",
+      "vitamina": "Agustus",
+      "penyerta": "Tidak",
+      "cacingan": "Tidak",
+      "kia": "Tidak",
+      "nikot": "678",
+      "nokk": "098",
+      "namaot": "test nama ortu",
+      "nohp": "12345678",
+      "asuransi": "Mandiri",
+      "airbersih": "Tidak",
+      "jamban": "Tidak",
+      "imunisasi": "Tidak",
+      "merokok": "Tidak",
+      "kehamilan": "Non KEK",
+      "foto": null,
+      "id": 1
+    }
+  ]
+}
